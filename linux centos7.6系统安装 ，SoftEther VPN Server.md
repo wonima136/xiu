@@ -59,6 +59,6 @@
 ![安装](/img/21.jpg "安装")<br>
 ![安装](/img/22.jpg "安装")<br><br>
  * ### 连接SoftEther VPN Server工具
-<https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releases/download/v4.31-9727-beta/softether-vpnclient-v4.31-9727-beta-2019.11.18-windows-x86_x64-intel.exe>
+<https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releases/download/v4.31-9727-beta/softether-vpnclient-v4.31-9727-beta-2019.11.18-windows-x86_x64-intel.exe><br>
 ![安装](/img/pcok.jpg "安装")<br>
 ![安装](/img/sjok.jpg "安装")<br>
