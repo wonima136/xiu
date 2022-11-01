@@ -127,9 +127,7 @@ firewall-cmd -zone=public --list-ports
 
 ```shell
 # centos8下需要先安装epel-release
-yum install epel-release -y
-
-yum install screen -y
+yum install epel-release screen -y
 ```
 
 新建会话
