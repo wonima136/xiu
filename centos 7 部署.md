@@ -1,7 +1,10 @@
 ### 环境安装
 
 ### python3.9安装
-
+java
+```shell
+yum install java-1.8.0-openjdk-devel.x86_64
+```
 下载
 
 ```shell
