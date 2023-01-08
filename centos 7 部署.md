@@ -4,6 +4,13 @@
 java
 ```shell
 yum install java-1.8.0-openjdk-devel.x86_64
+
+linux 运行
+nohup java -jar WebmasterTools-0.0.1.jar
+
+win 运行
+java -jar WebmasterTools-0.0.1.jar
+
 ```
 下载
 
