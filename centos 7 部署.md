@@ -78,7 +78,6 @@ source ~/.bash_profile
 
 ###  安装screen（用于python后台运行脚本）
 
-# centos8下需要先安装epel-release
 ```shell
 yum install epel-release screen -y
 ```
@@ -119,45 +118,7 @@ screen -ls
 screen -X -S 122128 quit
 ```
 
-
-### crontab:定时任务
-
-```
-#安装crontab:定时任务
-yum install crontabs
-
-#卸载crontab:定时任务
-yum remove crontabs
-
-#进入
-crontab -e
-
-#定时任务格式
-01 02,04,06,08,10,12,14,16,19,20,22 * * * /usr/bin/php -f /home/www/cache/d58.php
-0 15 * * * python3 /www/wwwroot/soft_group/sitemap_pro.py
-
-#退出定时任务
-:wq
-
-
-C:\Python35\Lib>python C:\Python35\Tools\scripts\2to3.py -w bs4
-
-
-/root/Python-3.9.5/Lib
-
-python3 /usr/local/Python39/lib/python3.9/test/test_lib2to3.py -w bs4
-
-
-
-
-
-nohup python my.py >> my.log 2>&1 &
-# 或者
-nohup python my.py >> nohup.out 2>&1 &
-# 或者
-nohup python my.py &  # 这种写法和上面第二种写法等价
-
-
+### 教程地址
 https://blog.csdn.net/DreamingBetter/article/details/123918531
 
 ```
