@@ -79,32 +79,6 @@ source ~/.bash_profile
 yum install nginx -y 
 ```
 
-配置Nginx配置文件位置
-
-```shell
-/etc/nginx/config.d/
-
-ls /etc/nginx/config.d/
-cd /etc/nginx/config.d/
-vim xiaoshuo.conf
-
-修改 root 为项目地址
-保存之后重新加载
-nginx -s raload
-
-可以查看nginx是否启动
-ps -aux | grep nginx
-```
-
-### python模块依赖安装
-
-```
-pip3 install -i https://pypi.doubanio.com/simple sanic jinja2 motor
-
-pip3 install setuptools==33.1.1
-pip3 install --upgrade pip
-```
-
 防火墙配置
 
 ```shell
