@@ -73,49 +73,13 @@ esc退出 :wq保存
 source ~/.bash_profile
 ```
 
-### Nginx安装
 
-```shell
-yum install nginx -y 
-```
 
-防火墙配置
 
-```shell
-# 查看防火墙某个端口是否开放
-firewall-cmd --query-port=80/tcp
+###  安装screen（用于python后台运行脚本）
 
-# 开放防火墙80端口
-firewall-cmd --zone=public --add-port=80/tcp --permanent
-
-# 关闭80端口
-firewall-cmd --zone=public --remove-port=80/tcp --permanent
-
-# 配置立即生效
-firewall-cmd --reload
-
-# 查看防火墙状态
-systemctl status firewall
-
-# 关闭防火墙
-systemctl stop firewall
-
-# 打开防火墙
-systemctl start firewall
-
-# 开放一段端口
-firewall-cmd --zone=public --add-port=8121-8124/tcp --permanent
-
-# 查看开放端口列表
-firewall-cmd -zone=public --list-ports
-```
-
-###  screen
-
-安装
-
-```shell
 # centos8下需要先安装epel-release
+```shell
 yum install epel-release screen -y
 ```
 
@@ -154,7 +118,6 @@ screen -ls
 删除一个
 screen -X -S 122128 quit
 ```
-
 
 
 ### crontab:定时任务
