@@ -50,7 +50,7 @@ make && make install
 
 添加环境变量
 
-```
+
 ```shell
 cd /root/
 ```
@@ -59,21 +59,19 @@ vi ~/.bash_profile
 ```
 ```shell
 insert在PATH后添加 /usr/local/Python39/bin
-
+# 下面加上以下文本
 PATH=$PATH:$HOME/bin
 export PYTHON_HOME=/usr/local/Python39
 export PATH=$PYTHON_HOME/bin:$PATH
 export PATH
 ```
-
+```shell
 esc退出 :wq保存
-
-使环境变量生效
+```
+使环境变量生效（有时候需要，有时候不需要）
 source ~/.bash_profile
 
 ```
-
-
 
 ### Nginx安装
 
