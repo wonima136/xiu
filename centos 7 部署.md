@@ -68,9 +68,9 @@ export PATH
 ```shell
 esc退出 :wq保存
 ```
+```shell
 使环境变量生效（有时候需要，有时候不需要）
 source ~/.bash_profile
-
 ```
 
 ### Nginx安装
@@ -81,7 +81,7 @@ yum install nginx -y
 
 配置Nginx配置文件位置
 
-```
+```shell
 /etc/nginx/config.d/
 
 ls /etc/nginx/config.d/
