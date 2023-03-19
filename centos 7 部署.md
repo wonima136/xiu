@@ -1,7 +1,5 @@
 ### 环境安装
-
-### python3.9安装
-java
+### java
 ```shell
 yum install java-1.8.0-openjdk-devel.x86_64
 
@@ -12,6 +10,8 @@ win 运行
 java -jar WebmasterTools-0.0.1.jar
 
 ```
+### python3.9安装
+
 下载
 
 ```shell
