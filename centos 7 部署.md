@@ -28,7 +28,8 @@ tar -xf Python-3.9.5.tgz
 
 ```shell
 yum install zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel xz xz-devel libffi-devel -y
-
+```
+```shell
 yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gcc make
 ```
 
