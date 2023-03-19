@@ -37,28 +37,34 @@ yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel r
 
 ```shell
 cd /root/Python-3.9.5
-
+```
+```shell
 ./configure --prefix=/usr/local/Python39 --with-ssl
 ```
 
 编译安装
 
-```sh
+```shell
 make && make install
 ```
 
 添加环境变量
 
 ```
+```shell
 cd /root/
+```
+```shell
 vi ~/.bash_profile
+```
+```shell
 insert在PATH后添加 /usr/local/Python39/bin
 
 PATH=$PATH:$HOME/bin
 export PYTHON_HOME=/usr/local/Python39
 export PATH=$PYTHON_HOME/bin:$PATH
 export PATH
-
+```
 
 esc退出 :wq保存
 
