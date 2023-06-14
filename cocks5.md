@@ -33,9 +33,10 @@
 /etc/init.d/sockd adduser # 添加用户
 /etc/init.d/sockd update # 更新
 ```
-> 配置文件修改IP成网卡名字
+> 
 
-> 修改下面这两个参数
+> 配置文件修改IP成网卡名字，修改下面这两个参数，将原本的 ***IP*** 改成 ***eth0***
+  - 这一步只针对个别服务器商，一般不需要改动看情况而定
  - internal: eth0
  - external: eth0
 ```shell
