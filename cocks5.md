@@ -34,6 +34,7 @@
 /etc/init.d/sockd update # 更新
 ```
 > 配置文件修改IP成网卡名字
+
 > 修改下面这两个参数
  - internal: eth0
  - external: eth0
