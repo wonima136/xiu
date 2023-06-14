@@ -65,5 +65,21 @@ block {
 from: 0.0.0.0/0 to: 0.0.0.0/0
 log: connect error
 }
-
 ```
+> 重新加载下代理 `/etc/init.d/sockd reload`
+> 查看下状态 `/etc/init.d/sockd state`
+
+> 代理状态正常返回结果
+```shell
++-----------------------------------------+
+ Dante Server [ Running ] 
++-----------------------------------------+
+ Dante Version:     sockd: dante v1.3.2
+ Socks5 Info:      
+                    :1038
+ Socks5 User:       111
++_________________________________________+
+```
+
+> 声明：如果代理状态是 [ Running ]但是又上不了网，那应该是端口的问题。
+
