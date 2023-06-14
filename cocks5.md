@@ -33,5 +33,37 @@
 /etc/init.d/sockd adduser # 添加用户
 /etc/init.d/sockd update # 更新
 ```
+> 配置文件修改IP成网卡名字
+> 修改下面这两个参数
+ - internal: eth0
+ - external: eth0
+```shell
+# Generate by sockd.info
+# Generate interface 172.26.10.136
+internal: eth0  port = 1038
+external: eth0
 
+method: pam none
+clientmethod: none
+user.privileged: root
+user.notprivileged: sockd
+logoutput: /var/log/sockd.log
 
+client pass {
+from: 0.0.0.0/0  to: 0.0.0.0/0
+}
+client block {
+from: 0.0.0.0/0 to: 0.0.0.0/0
+}
+pass {
+from: 0.0.0.0/0 to: 0.0.0.0/0
+protocol: tcp udp
+method: pam
+log: connect disconnect
+}
+block {
+from: 0.0.0.0/0 to: 0.0.0.0/0
+log: connect error
+}
+
+```
