@@ -21,7 +21,7 @@ wget https://www.python.org/ftp/python/3.9.8/Python-3.9.8.tgz
 解压
 
 ```shell
-tar -xf Python-3.9.5.tgz
+tar -xf Python-3.9.8.tgz
 ```
 
 安装依赖
@@ -36,7 +36,7 @@ yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel r
 配置
 
 ```shell
-cd /root/Python-3.9.5
+cd /root/Python-3.9.8
 ```
 ```shell
 ./configure --prefix=/usr/local/Python39 --with-ssl
