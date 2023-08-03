@@ -15,7 +15,7 @@ java -jar WebmasterTools-0.0.1.jar
 下载
 
 ```shell
-wget https://www.python.org/ftp/python/3.9.5/Python-3.9.5.tgz
+wget https://www.python.org/ftp/python/3.9.8/Python-3.9.8.tgz
 ```
 
 解压
