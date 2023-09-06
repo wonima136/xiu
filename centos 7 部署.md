@@ -27,10 +27,22 @@ tar -xf Python-3.9.8.tgz
 安装依赖
 
 ```shell
+# centos
 yum install zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel xz xz-devel libffi-devel -y
 ```
 ```shell
+# centos
 yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gcc make
+```
+
+```shell
+# Ubuntu
+sudo apt install zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev libssl-dev liblzma-dev libffi-dev -y
+```
+
+```shell
+# Ubuntu
+sudo apt install zlib1g-dev libbz2-dev libssl-dev libncurses5-dev libsqlite3-dev libreadline-dev tk-dev gcc make -y
 ```
 
 配置
