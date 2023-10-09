@@ -4,46 +4,59 @@
     <br>
 ---
  * ### 登录工具,我这里使用的是宝塔的工具：
-```https://download.bt.cn/xterm/BT-Term.zip```
+```shell
+https://download.bt.cn/xterm/BT-Term.zip
+```
   ---
  * ### 在安装VPN前我们需要安装它的依赖库如下：
-```yum -y install gcc zlib-devel openssl-devel readline-devel ncurses-devel```
+```shell
+yum -y install gcc zlib-devel openssl-devel readline-devel ncurses-devel
+```
   ---
  * ### 安装下载程序：
-```yum install wget -y```
+```shell
+yum install wget -y
+```
   ---
  * ### 依赖库安装完成后我们在安装softether server，通过官方下载：
-```wget https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releases/download/v4.31-9727-beta/softether-vpnserver-v4.31-9727-beta-2019.11.18-linux-x64-64bit.tar.gz```
+```shell
+wget https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releases/download/v4.31-9727-beta/softether-vpnserver-v4.31-9727-beta-2019.11.18-linux-x64-64bit.tar.gz
+```
   ---
  * ### 下载之后完之后解压：
-```tar zxf softether-vpnserver-v4.31-9727-beta-2019.11.18-linux-x64-64bit.tar.gz```
+```shell
+tar zxf softether-vpnserver-v4.31-9727-beta-2019.11.18-linux-x64-64bit.tar.gz
+```
   ---
  * ### 5.进入解压目录（如果是默认安装都会在root里面）：
-```cd /root/vpnserver```
+```shell
+cd /root/vpnserver
+```
  ---
  * ### 安裝（直接make 即可）：
-```make```
- * ### 你想读这个软体的许可协议吗？我们选择，选择：
-```1``` yes
+```shell
+make
+```
+ * ### 你想读这个软体的许可协议吗？我们选择，选择：```1``` yes
      ![安装](/img/make1.jpg "安装")
- * ### 你读过并理解许可协议了吗？我们继续，选择：
-```1``` yes
+ * ### 你读过并理解许可协议了吗？我们继续，选择：```1``` yes
      ![安装](/img/make2.jpg "安装")
- * ### 你同意许可协议吗？我们继续，选择：
-```1``` yes
+ * ### 你同意许可协议吗？我们继续，选择：```1``` yes
      ![安装](/img/make3.jpg "安装")
   ---
  * ### 10.启动它：
-```./vpnserver start```<br>
+```shell
+./vpnserver start
+```
   ![安装](/img/start.jpg "安装")
   ---
  * ### 设置管理员ip跟端口账号密码，输入：
- ```./vpncmd```
+```shell
+./vpncmd
+```
  * ### 回复，输入：```1```
- * ### 设置端口输入你要搭建vpn的ip加端口：
- ```ip:443```
- * ### 接着设置用户名我们这里留空直接敲回车：
-```回车留空```
+ * ### 设置端口输入你要搭建vpn的ip加端口：```ip:443```
+ * ### 接着设置用户名我们这里留空直接敲回车：```回车留空```
  * ### 最后一步退出：```CTRL+C```
    ---
  * ### 我们使用windows环境下的远程管理工具vpnsmgr工具来管理VPN伺服器，下载SoftEther VPN Server设置工具
