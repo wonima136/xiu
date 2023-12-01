@@ -69,10 +69,21 @@ cd /root/
 ```shell
 vi ~/.bash_profile
 ```
+覆盖以下变量文件 .bash_profile
+
 ```shell
-insert在PATH后添加 /usr/local/Python39/bin
-# 下面加上以下文本
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+        . ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
 PATH=$PATH:$HOME/bin
+
+export PATH=/usr/local/Python39/bin:$PATH
 export PYTHON_HOME=/usr/local/Python39
 export PATH=$PYTHON_HOME/bin:$PATH
 export PATH
