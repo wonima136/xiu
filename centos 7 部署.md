@@ -11,6 +11,13 @@ java -jar WebmasterTools-0.0.1.jar
 
 ```
 ### python3.9安装
+```shell
+# 一键安装python3.9
+
+curl -s https://raw.githubusercontent.com/wonima136/google_seo/main/python3.9.sh | bash
+
+```
+
 
 下载
 
