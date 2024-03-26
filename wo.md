@@ -10,5 +10,10 @@ https://www.bt.cn/new/download.html
 
 ![image](https://github.com/wonima136/xiu/assets/100024933/7e5cfb43-3d01-4d47-b7fc-7d08ff2c158a)
 
+![image](https://github.com/wonima136/xiu/assets/100024933/9bf01fe2-707d-4d7a-b03b-932af9377297)
 
+![image](https://github.com/wonima136/xiu/assets/100024933/a6159426-3931-45dc-89c2-4670fdec38c6)
+![image](https://github.com/wonima136/xiu/assets/100024933/e9ea64a6-87d8-412f-88cb-eb33f4f0c0ce)
 
+![image](https://github.com/wonima136/xiu/assets/100024933/424f8165-8d30-48f1-8f7c-62fe2b45381f)
+![image](https://github.com/wonima136/xiu/assets/100024933/22233fb7-0088-4ea8-b9bc-4133d5246c69)
