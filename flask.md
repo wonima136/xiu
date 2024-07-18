@@ -53,4 +53,8 @@ buffer-size =
 替换成
 buffer-size = 65535
 # 服务器状态，重启就OK了
+
+# 在添加需要先修改系统的最大连接数为65535,不能大于系统的这个值
+# 使用命令设置 sysctl -w net.core.somaxconn=65535  设置成功后需要重启服务器
+listen=65535 
 ```
