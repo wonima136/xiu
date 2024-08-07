@@ -22,6 +22,13 @@ yum install wget -y
 ```shell
 wget https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releases/download/v4.31-9727-beta/softether-vpnserver-v4.31-9727-beta-2019.11.18-linux-x64-64bit.tar.gz
 ```
+ * ### [国内下载地址] 依赖库安装完成后我们在安装softether server，通过官方下载：
+```shell
+wget https://gitee.com/wonima136/vpn/raw/master/softether-vpnserver-v4.31-9727-beta-2019.11.18-linux-x64-64bit.tar.gz
+```
+
+
+
   ---
  * ### 下载之后完之后解压：
 ```shell
