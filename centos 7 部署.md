@@ -146,6 +146,9 @@ screen -ls
 
 删除一个
 screen -X -S 122128 quit
+
+删除全部
+screen -ls | awk '/[0-9]+\./ {print $1}' | xargs -n 1 -I {} screen -S {} -X quit
 ```
 
 ### 教程地址
