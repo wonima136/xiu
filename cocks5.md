@@ -15,7 +15,7 @@
 
 > 下载脚本`wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -O install.sh`
 
-> 国内服务器 - 下载脚本`wget --no-check-certificate http://ip.3306.site/install.sh -O install.sh`
+> 国内服务器 - 下载脚本`wget http://43.156.33.235/install.sh`
 
 > 安装 `bash install.sh  --port=端口 --user=账号 --passwd=密码`
  - `成功后会出现：Dante Server Install Successfuly!`
